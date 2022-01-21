@@ -6,10 +6,8 @@
 - ⚡ And I'm currently studying Ph.D. in Robotics and Control at [University of Nevada, Reno](https://www.unr.edu/cse) 
 
 - I do have an additional backgrounds on
-   - Microcontrollers (PIC16f/18f/dsPIC33e/dsPIC33f)
-   - FPGAs board (Spartan6), RasPi, Arduino
+   - Embedded Systems: FPGAs (Xilinx, Altera), Nvidia Jetson, RasPi, Arduino
    - Agile tools (JIRA, MS Azure DevOps Services)
-   - MS Power Automate 
 
 - 💞️ I’m looking to collaborate on open source projects
 -  Some of my online profiles:
