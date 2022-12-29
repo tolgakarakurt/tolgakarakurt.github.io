@@ -15,7 +15,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md"}
+  - {file: "bio.md"}
   - {url: "/tolgakarakurt_CV.pdf", title: CV}
   - {url: "https://www.roboticworkerslab.com/", title: Lab}
   - {file: "blog.md"}
@@ -32,4 +32,3 @@ remote_theme: niklasbuschmann/contrast@v2.11
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
-# description: Electrical/Software/Firmware Engineer and graduate researcher at RoboWorkLab in University of Nevada, Reno with 7+ years’ hands-on experience in rapid-prototype development, electrical circuit design, embedded systems, autonomous systems, deep learning, motion planning, AC/DC circuits, and industry standard test equipment. Seeking for internships in robotics, control, and mechatronics. Experienced in applications of agile methodologies to entire software development lifecycle.
