@@ -27,7 +27,9 @@ external:                  # shows a footer with social links - for available ic
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/tolgakarakurt/"}
 
 
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: niklasbuschmann/contrast@v2.11
+#pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
 # description: Electrical/Software/Firmware Engineer and graduate researcher at RoboWorkLab in University of Nevada, Reno with 7+ years’ hands-on experience in rapid-prototype development, electrical circuit design, embedded systems, autonomous systems, deep learning, motion planning, AC/DC circuits, and industry standard test equipment. Seeking for internships in robotics, control, and mechatronics. Experienced in applications of agile methodologies to entire software development lifecycle.
