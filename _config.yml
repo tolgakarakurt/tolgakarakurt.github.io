@@ -15,7 +15,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "bio.md"}
+  - {file: "index.html"}
   - {url: "/tolgakarakurt_CV.pdf", title: CV}
   - {url: "https://www.roboticworkerslab.com/", title: Lab}
   - {file: "blog.md"}
