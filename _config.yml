@@ -6,8 +6,8 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+show_downloads: "true" #["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: #[Your Google Analytics tracking ID]
 
 # Layout
 show_social: true         # show footer
