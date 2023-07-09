@@ -6,6 +6,9 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+
 # Layout
 show_social: true         # show footer
 show_excerpts: false       # show article excerpts on the home page
@@ -15,20 +18,21 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "bio.md"}
-  - {url: "/tolgakarakurt_CV.pdf", title: CV}
-  - {url: "https://www.roboticworkerslab.com/", title: Lab}
-  - {file: "blog.md"}
+  #- {file: "bio.md"}
+  #- {url: "/tolgakarakurt_CV.pdf", title: CV}
+  #- {url: "https://www.roboticworkerslab.com/", title: Lab}
+  #- {file: "blog.md"}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:tolgakarakurt@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/tolgakarakurt"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/tolgakarakurt/"}
+  #- {title: Mail, icon: envelope, url: "mailto:tolgakarakurt@gmail.com"}
+  #- {title: Github, icon: github, url: "https://github.com/tolgakarakurt"}
+  #- {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/tolgakarakurt/"}
 
 
-remote_theme: niklasbuschmann/contrast@v2.11
+remote_theme: pages-themes/architect@v0.2.0
+#niklasbuschmann/contrast@v2.11
 #pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
-  - jekyll-feed
+  #- jekyll-feed
