@@ -2,6 +2,9 @@ title: "Tolga Karakurt"
 author: "Tolga Karakurt"
 description: "University of Nevada, Reno"
 permalink: /:title/
+baseurl: ""
+url: "https://tolgakarakurt.com"
+
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
