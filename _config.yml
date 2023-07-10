@@ -21,16 +21,16 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  #- {file: "bio.md"}
-  #- {url: "/tolgakarakurt_CV.pdf", title: CV}
+  - {file: "bio.md"}
+  - {url: "/tolgakarakurt_CV.pdf", title: CV}
   #- {url: "https://www.roboticworkerslab.com/", title: Lab}
-  #- {file: "blog.md"}
+  - {file: "blog.md"}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  #- {title: Mail, icon: envelope, url: "mailto:tolgakarakurt@gmail.com"}
-  #- {title: Github, icon: github, url: "https://github.com/tolgakarakurt"}
-  #- {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/tolgakarakurt/"}
+  - {title: Mail, icon: envelope, url: "mailto:tolgakarakurt@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/tolgakarakurt"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/tolgakarakurt/"}
 
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
