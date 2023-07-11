@@ -1,6 +1,6 @@
-title: "Tolga Karakurt"
-author: "Tolga Karakurt"
-description: "MS in Computer Science and Engineering, MS in Electrical Engineering, BS in Electrical and Electronics Engineering"
+title: Tolga Karakurt
+#author: "Tolga Karakurt"
+description: "Robotic Software and Control Engineer"
 permalink: /:title/
 baseurl: ""
 url: "https://tolgakarakurt.com"
