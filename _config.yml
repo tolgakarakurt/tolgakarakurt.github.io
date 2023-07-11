@@ -1,7 +1,7 @@
 title: Tolga Karakurt
 #author: "Tolga Karakurt"
 description: "Robotic Software and Control Engineer"
-permalink: /about/
+#permalink: /:docs:about.md
 #baseurl: ""
 url: "https://tolgakarakurt.com"
 
@@ -21,6 +21,17 @@ show_sidebar: true        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - title: LinkedIn
+  - url: https://www.linkedin.com/in/tolgakarakurt/
+
+  - title: Github
+  - url: https://github.com/tolgakarakurt
+
+  - title: Google Scholar
+  - url: https://scholar.google.com/citations?user=NNdpL2AAAAAJ&hl=en
+
+  - title: Resume
+  - url: https://drive.google.com/file/d/1k6OiOat_ySqzSJjr-TsexHmOJE8oknuc/view?usp=sharing
   - {file: "bio.md"}
   - {url: "/tolgakarakurt_CV.pdf", title: CV}
   #- {url: "https://www.roboticworkerslab.com/", title: Lab}
