@@ -1,8 +1,8 @@
 title: Tolga Karakurt
 #author: "Tolga Karakurt"
 description: "Robotic Software and Control Engineer"
-permalink: /:title/
-baseurl: ""
+#permalink: /:title/
+#baseurl: ""
 url: "https://tolgakarakurt.com"
 
 lang: "en"
@@ -15,8 +15,8 @@ google_analytics: #[Your Google Analytics tracking ID]
 # Layout
 show_social: true         # show footer
 show_excerpts: false       # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
+show_frame: true           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
 
 # Menu
 
@@ -39,4 +39,4 @@ plugins:
 #pages-themes/minimal@v0.2.0
 #plugins:
  # - jekyll-remote-theme # add this line to the plugins list if you already have one
-  #- jekyll-feed
+- jekyll-feed
