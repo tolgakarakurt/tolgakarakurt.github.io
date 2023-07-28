@@ -4,6 +4,12 @@
     margin: 0;
     padding: 0;
   }
+  /* .center {
+    display: block;
+    margin-left: auto;
+    margin: right 10%;;
+    width: 50%;
+  } */
   div#UNR {
     margin-top: 10px;
   }
@@ -24,9 +30,9 @@
   }
   
   section#picture img {
-    width: 150px;
-    height: 150px;
-    margin-right: 40px;
+    width: 180px;
+    height: 180px;
+    margin-right: auto;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
