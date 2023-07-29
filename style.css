@@ -62,9 +62,8 @@
     opacity: 1;
     zoom: 110%;
     align-items: baseline;
-
     /* background-image: url("./docs/header_bg_mobile.png"); */
-    background-image: url("/docs/nevada-engineering-wpeb.jpg");
+    /* background-image: url("/docs/nevada-engineering-wpeb.jpg"); */
     /* display: flex; */
     /* justify-content: space-between; */
     /* align-items: left; */
@@ -73,7 +72,10 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     
   }
-  
+  .header_image {
+    width: 100%;
+    height: auto;
+  }
   header h1 {
     margin-left: auto;
     margin-right: auto;
