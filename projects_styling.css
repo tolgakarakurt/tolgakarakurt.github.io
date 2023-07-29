@@ -1,0 +1,248 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+/* Header styles */
+header {
+    opacity: 1;
+    zoom: 110%;
+    align-items: baseline;
+    /* background-image: url("./docs/header_bg_mobile.png"); */
+    /* background-image: url("/docs/nevada-engineering-wpeb.jpg"); */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: left; */
+    /* padding-bottom: 700px; */
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+/* .header_image {
+    width: 100%;
+    height: auto;
+  } */
+  header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  #nav ul {
+    text-align:left;
+    display: flex;
+
+    justify-content: space-between;
+
+    /* margin-top: 470px; */
+    /* border: 5px solid gray; */
+    /* background-color: rgb(51, 70, 70); */
+    /* opacity: 0.4; */
+    text-emphasis: 100;
+    display: flex;
+    list-style: none;
+    
+  }
+/*   
+  nav li {
+    margin-left: 10px;
+    
+  } */
+  
+  #nav a {
+    /* border: 5px solid gray; */
+    text-decoration: none;
+    color: #050505;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-size: 120%;
+    /* text-align: center; */
+    text-align:left;
+    /* margin-left: 10%; */
+    margin-bottom: 50px;
+  }
+  
+  #nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Main section styles */
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    /* padding: 40px; */
+  }
+  
+div
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(12, 12, 12);
+    padding: 10px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width:100%;
+}
+.one
+{
+    /* background-color:limegreen;     */
+    border: 5px solid gray;
+    float: left;  
+}
+.two
+{
+    /* background-color:orange; */
+    border: 5px solid gray;
+    float: left;
+}
+.three
+{
+    /* background-color: hotpink; */
+    border: 5px solid gray;
+    float: left;
+}
+
+
+div#project-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div#DeepLearning {
+    align-items: center;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    margin-bottom: 10px;
+    /* box-sizing: border-box; */
+    
+  }
+  div#ComputerVision {
+    align-items: flex-end;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  div#EmbeddedSystems {
+    align-items: center;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    margin: 0; margin-bottom: 10px;
+
+  }
+  /*div#RoboticSystems {
+    align-items: center;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    margin: 0; margin-bottom: 10px;
+
+  }
+  div#ControlSystems {
+    align-items: center;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    margin: 0; margin-bottom: 10px;
+
+  } */
+
+  ul#project-nav {
+    font-size: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7dbfcf;
+    /* opacity: 0.2; */
+    /* position: fixed; */
+    top: 0;
+    width: auto;
+    margin-top: 100px;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: #007bff;
+    /* background-color: #111; */
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Style the buttons */
+/* .embedded_btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  } */
+  
+  /* Style the active class (and buttons on mouse-over) */
+  /* .active, .embedded_btn:hover {
+    background-color: #666;
+    color: white;
+  } */
+/* Footer styles */
+
+footer {
+
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
+    }
+    

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./docs/logos/T_logo.png">
+    <link rel="stylesheet" href="./projects_styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  <body>
+    <header>
+
+     
+      <!-- <h1><img src="./docs/logos/tg_logo.jpeg" alt="tg_logo" width="120px" height="120px">   Tolga Karakurt</h1> -->
+      <!-- <h1 style="text-align: left;">Tolga Karakurt</h1> -->
+      <!-- <div class="'navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <div class="dropdown">
+          <button class="dropbtn">More
+            <i class="fa fa-caret-down"></i>
+
+          </button>
+          <div class="dropdown-content">
+            <a href="#projects">Projects</a>
+            <a href="https://scholar.google.com/citations?user=NNdpL2AAAAAJ&hl=en">Publications</a>
+            <a href="https://www.roboticworkerslab.com/">Research</a>
+            <a href="#SocialMedia">Social Media</a>
+
+          </div>
+        </div>
+      </div> -->
+
+
+    </header>
+    <main>
+      <nav id="nav">
+        <ul style="text-align: left;">
+          <a href="./index.html">Home</a>
+          <!-- <a href="./index.html">About</a> -->
+          <!-- <a href="#projects">Projects</a> -->
+          <!-- <a href="https://scholar.google.com/citations?user=NNdpL2AAAAAJ&hl=en">Publications</a> -->
+          <!-- <li><a href="#social-media">Social Media</a></li> -->
+          <!-- <a href="https://www.roboticworkerslab.com/">Research</a> -->
+          <!-- <a href="./index.html">Social Media</a> -->
+        </ul>
+      </nav>
+
+      <section>
+        <h2 style="text-align:center;">Projects</h2>
+          <p style="text-align:center" ><img src="./docs/logos/under_construction.png" alt="Under Development" width="370px" height="190px"></p>
+          <!-- <p>Under development</p> -->
+          <ul id="project-nav">
+            <!-- <li><a href="#EmbeddedSystems">Embedded Systems</a></li>
+            <li><a href="#RoboticSystems">Robotic Systems</a></li>
+            <li><a href="#ControlSystems">Control Systems</a></li>
+            <li><a href="#DeepLearning">Deep Learning</a></li>
+            <li><a href="#ComputerVision">Computer Vision</a></li>
+            <li><a href="#OperatingSystem">Operating Systems</a></li> -->
+
+            <li><a class="embedded_btn" href="#EmbeddedSystems">Embedded Systems </a></li>
+            <li><a class="robotic_btn" href="#RoboticSystems">Robotic Systems</a></li>
+            <li><a class="control_btn" href="#ControlSystems">Control Systems</a></li>
+            <li><a class="dl_btn" href="#DeepLearning">Deep Learning</a></li>
+            <li><a class="cs_btn" href="#ComputerVision">Computer Vision</a></li>
+            <li><a class="os_btn" href="#OperatingSystem">Operating Systems</a></li>
+          </ul>
+        </section>
+
+        <!-- <section>
+
+          <div style="text-align:left;" class="deeplearning">Deep Learning
+            <div>
+              <p>Object Detection (RCNN)</p>
+            </div>
+            <div>
+              <p>Object Detection (Faster-RCNN)</p>
+            </div>
+          </div>
+          <div class="two">Section 2</div>
+          <div class="three">Section 3</div>
+        </section> -->
+        
+    <!-- Buttons to choose list or grid view -->
+    <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
+    <button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+
+    <section id="dl">
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>Object Detection (RNN)</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>Object Detection (Faster-RCNN)</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" style="background-color:#ccc;">
+        <h2>Traffic Sign Classifier</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#ddd;">
+        <h2>YOLO</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
+
+  <script>
+      // Get the container element
+  var btnContainer = document.getElementById("dl");
+
+  // Get all buttons with class="btn" inside the container
+  var btns = btnContainer.getElementsByClassName("embedded_btn");
+
+  // Loop through the buttons and add the active class to the current/clicked button
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+<!-- 
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>Column 5</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>Column 6</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" style="background-color:#ccc;">
+        <h2>Column 7</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#ddd;">
+        <h2>Column 8</h2>
+        <p>Some text..</p>
+      </div>
+    </div> -->
+  </section>
+
+  <script>
+    // Get the elements with class="column"
+    var elements = document.getElementsByClassName("column");
+    var project_group = document.getElementById("dl")
+    // Declare a loop variable
+    var i;
+    
+    // List View
+    function listView() {
+      for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "100%";
+      }
+    }
+    
+    // Grid View
+    function gridView() {
+      for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "50%";
+      }
+    }
+    
+    /* Optional: Add active class to the current button (highlight it) */
+    var container = document.getElementById("dl");
+    var btns = container.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+     } );
+    }
+    </script>
+
+      <!-- <section id="projects">
+        <h2 style="text-align:center;">Projects</h2>
+        <p style="text-align:center;">[...]</p>
+
+            <div id="DeepLearning">
+              <h3>Deep Learning</h3>
+              <h4>Object Detection (RCNN)</h4>
+              <a href="#projects">Project 1</a>
+              <p>Description</p>
+
+              <h4>Object Detection (Faster-RCNN)</h4>
+              <p>Description</p>
+
+              <h4>Traffic Sign Classifier</h4>
+
+              <p>Description</p>
+
+            </div>
+
+            <div id="ComputerVision">
+              <h3>Computer Vision</h3>
+              <h4>Pose Estimation (AprilTag)</h4>
+              <p>Description of project 1</p>
+
+              <h4>Localization (Marker)</h4>
+              <p>Description of project 1</p>
+            </div>
+
+            <div id="EmbeddedSystems">
+            <h3>Embedded Systems</h3>
+              <h4>Stepper Motor Controller (FPGA)</h4>
+              <p>Description of project 1</p>
+
+              <h4>32x32 bit Combinational Multiplier based (FPGA)</h4>
+              <p>Description of project 1</p>
+
+              <h4>32-bit Carry Lookahead Adder (VHDL)</h4>
+              <p>Description of project 1</p>
+
+              <h4>CANBUS Circuit Implementation (Raspberry Pi)</h4>
+              <p>Description of project 1</p>
+
+              <h4>dsPIC Microcontroller Projects</h4>
+              <p>Description of project 1</p>
+
+              <h4>PIC Microcontroller Projects</h4>
+              <p>Description of project 1</p>
+            </div>
+
+            <div id="RoboticSystems">
+            <h3>Robotic Systems</h3>
+
+              <h4>Boat Sanding using mobile manipulator (UR5)</h4>
+              <p>Description of Disturbance Observer</p>
+
+              <h4>Robot Localization</h4>
+              <p>Description of Disturbance Observer</p>
+
+              <h4>Robot Navigation</h4>
+              <p>Description of Disturbance Observer</p>
+
+              <h4>Micro Legged Robot Design (Spider Robot)</h4>
+              <p>Description of project 2</p>
+
+              <h4>Micro Line Following Robot (Arduino)</h4>
+              <p>Description of project 2</p>
+          </div>
+
+            <div id="ControlSystems">
+            <h3>Control Systems</h3>
+              <h4>System Dynamics Identification (In Progress)</h4>
+              <p>Description of Disturbance Observer</p>
+
+              <h4>Lyapunov Stability of Quadrotor Landing</h4>
+              <p>Description of Disturbance Observer</p>
+
+              <h4>Disturbance Observer</h4>
+              <p>Description of Disturbance Observer</p>
+
+              <h4>Biped robot balance system</h4>
+              <p>Description of Biped robot balance system</p>
+
+              <h4>PetriNet Control</h4>
+              <p>Description of PetriNet Control</p>
+
+              <h4>Cylinder-Pneumatic System (OMRON PLC)</h4>
+              <p>Description of PetriNet Control</p>
+            </div>
+
+      </section>  -->
+
+      <!-- <section id="blog">
+        <h2>Blog</h2>
+        <ul>
+          <li>
+            <h3>Blog Post 1</h3>
+            <p>Summary of blog post 1</p>
+          </li>
+          <li>
+            <h3>Blog Post 2</h3>
+            <p>Summary of blog post 2</p>
+          </li>
+        </ul>
+      </section> -->
+
+    </main>
+    <footer>
+      <p>Copyright © 2023 Tolga Karakurt</p>
+    </footer>
+  </body>
+</html>
