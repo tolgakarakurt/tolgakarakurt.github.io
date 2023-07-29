@@ -23,6 +23,7 @@
   div#SU {
     /* align-items: center; */
     margin-top: 80px;
+    margin-bottom: 140px;
   }
   section#about {
     display: flex;
@@ -31,6 +32,7 @@
     padding: 10px;
     border: 5px solid gray;
     margin: 0;
+    margin-bottom: 140px;
   }
   
   section#picture img {
@@ -247,6 +249,7 @@
   div#social-media{
     /* align-items: center; */
     padding-left: 240px;
+    
     /* display: flex; */
     /* background-color: black; */
   }
