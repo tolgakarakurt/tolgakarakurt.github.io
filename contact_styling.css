@@ -28,16 +28,12 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     
   }
-  h2 {
-    /* margin-top: 10%; */
+  /* h2 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #333;
-  }
-/* .header_image {
-    width: 100%;
-    height: auto;
   } */
+
   header h1 {
     margin-left: auto;
     margin-right: auto;
@@ -106,155 +102,7 @@
     margin: 0 auto;
     /* padding: 40px; */
   }
-  
-/* div
-{
-    font-size: 30px;
-    color: rgb(12, 12, 12);
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    height: 1000px;
-    width:100%;
-} */
-.one
-{
-    /* background-color:limegreen;     */
-    border: 5px solid gray;
-    float: left;  
-}
-.two
-{
-    /* background-color:orange; */
-    border: 5px solid gray;
-    float: left;
-}
-.three
-{
-    /* background-color: hotpink; */
-    border: 5px solid gray;
-    float: left;
-}
 
-
-div#project-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-div#DeepLearning {
-    align-items: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin-bottom: 10px;
-    /* box-sizing: border-box; */
-    
-  }
-  div#ComputerVision {
-    align-items: flex-end;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
-  div#EmbeddedSystems {
-    align-items: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin: 0; margin-bottom: 10px;
-
-  }
-  /*div#RoboticSystems {
-    align-items: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin: 0; margin-bottom: 10px;
-
-  }
-  div#ControlSystems {
-    align-items: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin: 0; margin-bottom: 10px;
-
-  } */
-
-  ul#project-nav {
-    font-size: 25px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #7dbfcf;
-    /* opacity: 0.2; */
-    /* position: fixed; */
-    top: 0;
-    width: auto;
-    margin-top: 100px;
-  }
-
-
-  li {
-    float: left;
-    border-right: 1px solid #bbb;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    color: #007bff;
-    /* background-color: #111; */
-  }
-  
-  .active {
-    background-color: #4CAF50;
-  }
-
-  /* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-/* Style the buttons */
-/* .embedded_btn {
-    border: none;
-    outline: none;
-    padding: 10px 16px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-  } */
-  
-  /* Style the active class (and buttons on mouse-over) */
-  /* .active, .embedded_btn:hover {
-    background-color: #666;
-    color: white;
-  } */
-/* Footer styles */
 
 footer {
 
@@ -263,6 +111,7 @@ footer {
     box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
     }
     
+
     /* Navbar container */
 .navbar {
   overflow: hidden;
