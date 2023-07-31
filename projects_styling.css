@@ -71,7 +71,7 @@
     }
      
   } */
-  @media (min-width:979px) { 
+  @media (max-width:979px) { 
     #nav ul{
       display:none;
     }
@@ -271,7 +271,7 @@ footer {
   font-family: Arial;
 }
 
-@media (max-width:979px) { 
+@media (min-width:979px) { 
   .navbar {
     display:none;
   }
