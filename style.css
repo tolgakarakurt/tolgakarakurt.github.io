@@ -103,7 +103,7 @@
     
   }
     
-  @media (max-width:979px) { 
+  @media (max-width:1200px) { 
     #nav ul{
       display:none;
     }
@@ -281,7 +281,7 @@
 /* .navbar {
   display:none;
 } */
-@media (min-width:979px) { 
+@media (min-width:1200px) { 
   .navbar {
     display:none;
   }
