@@ -36,7 +36,7 @@
   }
   
   section#picture img {
-
+    margin-top: 50px;
     margin-left: 300px;
     border-radius: 50%;
     object-fit: cover;
@@ -342,7 +342,7 @@
 .dropdown-content a {
   float: none;
   color: rgb(0, 0, 0);
-  padding: 12px 16px;
+  padding: 16px 26px;
   text-decoration: none;
   display: block;
   text-align: left;
