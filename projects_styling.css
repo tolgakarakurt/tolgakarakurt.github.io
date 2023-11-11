@@ -25,8 +25,8 @@
     /* align-items: left; */
     /* padding-bottom: 700px; */
     background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 0 0 5px rgba(214, 13, 13, 0.1);
+
   }
   h2 {
     /* margin-top: 10%; */
@@ -44,6 +44,7 @@
     font-size: 28px;
     font-weight: bold;
     color: #333;
+    
   }
   #nav ul {
     text-align:left;
@@ -288,8 +289,11 @@ footer {
 }
 
 .dropdown {
-  float: left;
-  overflow: hidden;
+  /* float: left; */
+  /* overflow: hidden; */
+  position: inherit;
+  z-index:999;
+  
 }
 
 /* Dropdown button */
@@ -302,6 +306,7 @@ footer {
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  z-index: 10;
 } 
 
 /* Add a red background color to navbar links on hover */
@@ -317,7 +322,7 @@ footer {
   /* background-color: #000000; */
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 10;
   font-weight: bold;
   font-size: 28px;
 }

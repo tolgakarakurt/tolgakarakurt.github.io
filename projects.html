@@ -2,8 +2,9 @@
 <html>
     <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="./docs/logos/TK_logo.png">
+    <link rel="icon" type="image/x-icon" href="./docs/logos/TK_logo_v2.png">
     <link rel="stylesheet" href="./projects_styling.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -13,13 +14,13 @@
         <div class="dropdown">
           <!-- <img class="Menu-icon" src="./docs/logos/TK_logo.png"width="50px" height="50px"> -->
           <button class="dropbtn" style="font-weight: bold;">
-            <img class="Menu-icon" src="./docs/logos/TK_logo.png"width="50px" height="50px">
+            <img class="Menu-icon" src="./docs/logos/TK_logo_v2.png"width="110px" height="100px">
             <i class="fa fa-caret-down"></i>
             
           </button>
           <div class="dropdown-content">
             <a href="./"style="font-size: 24px">Home</a>
-            <a href="./about.html"style="font-size: 24px">About</a>
+            <!-- <a href="./about.html"style="font-size: 36px">About</a> -->
             <a href="./projects.html"style="font-size: 24px">Projects</a>
             <a href="https://scholar.google.com/citations?user=NNdpL2AAAAAJ&hl=en"style="font-size: 24px">Publications</a>
             <a href="./contact.html"style="font-size: 24px">Contact</a>
@@ -35,10 +36,16 @@
         </ul>
       </nav>
 
-      <section>
-        <h2 style="text-align:center;">Projects</h2>
-          <p style="text-align:center" ><img src="./docs/logos/under_construction.png" alt="Under Development" width="370px" height="190px"></p>
-          <!-- <p>Under development</p> -->
+      <section id="projects">
+        <a>
+          <img style="margin-left:200px" src="./docs/project_files/robotic_systems/food_delivery_cart_design/DeLRo_test.png" width="600px" height="300px"class="center">
+        </a>
+        <h2 style="text-align:center;margin-top:20px">Projects</h2>
+        <!-- <p style="font-size: 24px;">Here are some contributed and hobby projects. Have fun scrolling :)</p> -->
+        <!-- <p style="font-weight: bold; font-size:24px">[Note]</p>  -->
+        <!-- <a style="font-size: 24px;">There might be some links missing. I will fix those asap. Sorry for inconvenience.</a> -->
+          <!-- <p style="text-align:center" ><img src="./docs/logos/under_construction.png" alt="Under Development" width="370px" height="190px"></p> -->
+          
           <ul id="project-nav">
             <!-- <li><a href="#EmbeddedSystems">Embedded Systems</a></li>
             <li><a href="#RoboticSystems">Robotic Systems</a></li>
@@ -47,12 +54,12 @@
             <li><a href="#ComputerVision">Computer Vision</a></li>
             <li><a href="#OperatingSystem">Operating Systems</a></li> -->
 
-            <li><a class="embedded_btn" href="#EmbeddedSystems">Embedded Systems </a></li>
-            <li><a class="robotic_btn" href="#RoboticSystems">Robotic Systems</a></li>
-            <li><a class="control_btn" href="#ControlSystems">Control Systems</a></li>
-            <li><a class="dl_btn" href="#DeepLearning">Deep Learning</a></li>
-            <li><a class="cs_btn" href="#ComputerVision">Computer Vision</a></li>
-            <li><a class="os_btn" href="#OperatingSystem">Operating Systems</a></li>
+            <!-- <li><a class="embedded_btn" href="#embedded-systems">Embedded Systems </a></li> -->
+            <li><a class="robotic_btn" href="#robotic-systems">Robotic Systems</a></li>
+            <li><a class="control_btn" href="#control-systems">Control Systems</a></li>
+            <!-- <li><a class="dl_btn" href="#deep-learning">Deep Learning</a></li> -->
+            <!-- <li><a class="cs_btn" href="#computer-vision">Computer Vision</a></li> -->
+            <!-- <li><a class="os_btn" href="#operating-systems">Operating Systems</a></li> -->
           </ul>
         </section>
 
@@ -74,45 +81,70 @@
     <button style="font-size: 25px;" onclick="listView()"><i class="fa fa-bars"></i> List</button>
     <button style="font-size: 25px;" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
 
-    <section id="embedded">
-    <div class="row">
-      <div class="column" style="background-color:#aaa;">
-        <h2>1</h2>
-        <p>Description..</p>
+    <!-- <section id="embedded-systems" style="font-size: 24px;">
+      <h3 style="padding-top:20px">Embedded Systems</h3>
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <a style="font-size: 24px;">Khadas VIM3</a>
+          <h2></h2>
+          <img src="./docs/project_files/embedded_systems/khadas_vim3.jpg" width="400px" height="300px">
+          <p style="font-size: 18px;">ARM</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <a style="font-size: 24px;">CANBUS Raspberry Pi</a>
+          <h2></h2>
+          <img src="/docs/project_files/embedded_systems/raspberry_pi.jpg"width="400px" height="300px">
+          <p style="font-size: 18px;">Python, CANBUS</p>
+        </div>
       </div>
-      <div class="column" style="background-color:#bbb;">
-        <h2>2</h2>
-        <p>Description..</p>
+
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <a style="font-size: 24px;">Stepper Motor Controller</a>
+          <h2></h2>
+          <img src="./docs/project_files/embedded_systems/atlys_spartan6_kit.png" width="400px" height="300px">
+          <p style="font-size: 18px;">VHDL, Verilog, Spartan6, Xilinx, FPGA</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+          <a style="font-size: 24px; ">NVIDIA Jetson</a>
+          <h2></h2>
+          <img src="./docs/project_files/embedded_systems/JetsonTX1.png"width="400px" height="300px">
+          <p style="font-size: 18px;">Python, Linux</p>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="column" style="background-color:#ccc;">
-        <h2></h2>
-        <p>Description..</p>
-      </div>
-      <div class="column" style="background-color:#ddd;">
-        <h2></h2>
-        <p>Description..</p>
-      </div>
-    </div>
+      <div class="row">
+        <div class="column" style="background-color:#ccc;">
+          <a style="font-size: 24px; ">PIC Microcontrollers</a>
+          <h2></h2>
+          <img src="./docs/project_files/embedded_systems/dsPIC33EP512MU810-E5X-Regular.jpg"width="400px" height="300px">
+          <p style="font-size: 18px;">Embedded C, SPI, UART, I2C</p>
+        </div>
+        <div class="column" style="background-color:#aaa;">
+          <a style="font-size: 24px;">Arduino Projects</a>
+          <h2></h2>
+          <img src="./docs/project_files/embedded_systems/arduino-mega.jpg" width="400px" height="300px">
+          <p style="font-size: 18px;">Arduino, I2C, SPI, ADC, UART</p>
+        </div>
 
-  <script>
-      // Get the container element
-  var btnContainer = document.getElementById("dl");
+      </div> -->
+<!-- 
+    <script>
+        // Get the container element
+    var btnContainer = document.getElementById("dl");
 
-  // Get all buttons with class="btn" inside the container
-  var btns = btnContainer.getElementsByClassName("embedded_btn");
+    // Get all buttons with class="btn" inside the container
+    var btns = btnContainer.getElementsByClassName("embedded_btn");
 
-  // Loop through the buttons and add the active class to the current/clicked button
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  }
-  </script>
+    // Loop through the buttons and add the active class to the current/clicked button
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script> -->
 <!-- 
     <div class="row">
       <div class="column" style="background-color:#aaa;">
@@ -135,7 +167,184 @@
         <p>Some text..</p>
       </div>
     </div> -->
+  <!-- </section> -->
+
+  <section id="robotic-systems" style="font-size: 24px;">
+    <h3 style="padding-top:20px"> Robotic Systems</h3>
+    <div class="row">
+
+      <div class="column" style="background-color:#aaa;font-size: 24px;" >
+        <a style="font-size: 24px;">Dynamic Identification of DJIM600Pro (Ongoing)</a>
+        <h2></h2>
+        <img src="./docs/project_files/robotic_systems/dynamic_identification_djim600pro/djiM600Pro.jpg" width="400px" height="300px">
+        <p style="font-size: 18px;">ROS, 6-rotor UAV, Matlab, Python, Dynamics</p>
+      </div>
+      <div class="column" style="background-color:#aaa;font-size: 24px;">
+        <a style="font-size: 24px;">UAV Autonomous Landing</a>
+        <h2></h2>
+        <a href="https://youtu.be/Y5_FF_JmObY?si=dM975bxXRKsW3Thu" target="_blank">
+          <img src="./docs/project_files/robotic_systems/autonomous_landing_spotmini/auto-landing.png" width="400px" height="300px">
+        </a>
+        <p style="font-size: 18px;">ROS, Gazebo, Python, Visual Odometry</p>
+      </div>
+    </div>  
+    <div class="row">
+      <div class="column" style="background-color:#aaa;font-size: 24px;">
+        <a style="font-size: 24px;">Boat Sanding Robot</a>
+        <h2></h2>
+        <a href="https://github.com/robowork/autonomous_mobile_manipulation/tree/project"target="_blank">
+          <img src="./docs/project_files/robotic_systems/boad_sanding_mobilemanipulator/boat_sanding.png" width="400px" height="300px">
+        </a>
+        <p style="font-size: 18px;">ROS, RViz, Gazebo, Planner, TSP</p>
+      </div>
+      <div class="column" style="background-color:#aaa;font-size: 24px;">
+        <a >Mapping and Navigation</a>
+        <h2></h2>
+        <a href="https://github.com/tolgakarakurt/rse-projects" target="_blank">
+          <img src="./docs/project_files/robotic_systems/udacity_projects/slam1.png" width="400px" height="300px">
+        </a>
+        <p style="font-size: 18px;">ROS, RViz, Gazebo, SLAM, Gmapping, AMCL</p>
+      </div>
+    </div>
+
+
+  <div class="row">
+
+    <div class="column" style="background-color:#bbb;">
+      <a style="font-size: 24px;">4-Wheel Food Delivery Robot Design </a>
+      <h2></h2>
+      <a href="https://digitalcommons.usf.edu/etd/8233/" target="_blank">
+        <img src="./docs/project_files/robotic_systems/food_delivery_cart_design/DeLRo_front.png" width="400px" height="300px">
+      </a>
+      <p style="font-size: 18px;">ROS, RViz, Gazebo, CNN, DNN, SolidWorks, PID</p>
+    </div>
+
+    <div class="column" style="background-color:#bbb;">
+      <a style="font-size: 24px;">Spider Robot Design </a>
+      <h2></h2>
+      <a href="http://www.ijmlc.org/vol5/490-A42.pdf"target="_blank">
+        <img src="./docs/project_files/robotic_systems/spider_robot_design/TKSpider.png" width="400px" height="300px">
+      </a>
+      <p style="font-size: 18px;">Arduino, C, SPI, ADC</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+  <section id="control-systems" style="font-size: 24px;">
+    <h3 style="padding-top:20px">Control Systems</h3>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <a style="font-size: 24px;">UAV MPC Controller (Ongoing)</a>
+        <h2></h2>
+        <img src="./docs/project_files/control_system/MPC/djiM600Pro.jpg" width="400px" height="300px">
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      <div class="column" style="background-color:#aaa;">
+        <a style="font-size: 24px;">Nonlinear Control of Landing UAV</a>
+        <h2></h2>
+        <img src="./docs/project_files/control_system/nonlinear_control_uav/quad-lyapunov.png" width="400px" height="300px">
+
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <a style="font-size: 24px;">BLDC Motor PID Control</a>
+        <h2></h2>
+        <img src="./docs/project_files/control_system/food_delivery_pid_control/pid_response.png" width="400px" height="300px">
+
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      <div class="column" style="background-color:#ddd;">
+        <h2></h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+    </div>
   </section>
+<!-- 
+  <section id="deep-learning" style="font-size: 24px;"> 
+    <h3 style="padding-top:20px" >Deep Learning</h3>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>1</h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>2</h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" style="background-color:#ccc;">
+        <h2></h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      <div class="column" style="background-color:#ddd;">
+        <h2></h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section id="computer-vision" style="font-size: 24px;"> 
+    <h3 style="padding-top:20px">Computer Vision</h3>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>1</h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>2</h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" style="background-color:#ccc;">
+        <h2></h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      <div class="column" style="background-color:#ddd;">
+        <h2></h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section id="operating-systems" style="font-size: 24px;">
+    <h3 style="padding-top:20px">Operating Systems</h3> 
+    
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>1</h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>2</h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      
+    </div>
+
+    <div class="row">
+      <div class="column" style="background-color:#ccc;">
+        <h2></h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+      <div class="column" style="background-color:#ddd;">
+        <h2></h2>
+        <p style="font-size: 18px;">Description..</p>
+      </div>
+    </div>
+    <a href="#projects">Back to Top</a>
+  </section> -->
 
   <script>
     // Get the elements with class="column"
@@ -170,7 +379,7 @@
     }
     </script>
 
-    <div class="box_outer">
+    <!-- <div class="box_outer">
 
       <div class="box_inner1">
         <div class="box_inner11">
@@ -180,7 +389,6 @@
         </div>
         <div class="box_inner12">
           <p>Project1</p>
-          <!-- This is a box! This is a box! This is a box! This is a box! -->
         </div>
       </div>
 
@@ -193,7 +401,7 @@
         </div>
       </div>
   
-    </div>
+    </div> -->
 
     <!-- <div class="box2">
       This is a box!
