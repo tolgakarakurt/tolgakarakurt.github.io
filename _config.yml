@@ -1,47 +1,47 @@
-title: Tolga Karakurt
-#author: "Tolga Karakurt"
-description: "Robotic Software and Control Engineer"
-#permalink: /:docs:about.md
-#baseurl: ""
-url: "https://tolgakarakurt.com"
+# title: Tolga Karakurt
+# #author: "Tolga Karakurt"
+# description: "Robotic Software and Control Engineer"
+# #permalink: /:docs:about.md
+# #baseurl: ""
+# url: "https://tolgakarakurt.com"
 
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+# lang: "en"
+# excerpt_separator: "\n\n\n"
+# date_format: "%B %d, %Y"
 
-show_downloads: false #["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: #[Your Google Analytics tracking ID]
+# show_downloads: false #["true" or "false" (unquoted) to indicate whether to provide a download URL]
+# google_analytics: #[Your Google Analytics tracking ID]
 
-# Layout
-show_social: true         # show footer
-show_excerpts: false       # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: true        # show a sidebar instead of the usual header
+# # Layout
+# show_social: true         # show footer
+# show_excerpts: false       # show article excerpts on the home page
+# show_frame: true           # adds a gray frame to the site
+# show_sidebar: true        # show a sidebar instead of the usual header
 
-# Menu
+# # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - title: LinkedIn
-  - url: https://www.linkedin.com/in/tolgakarakurt/
+# navigation:                # accepts {file, title, url, icon, sidebaricon}
+#   - title: LinkedIn
+#   - url: https://www.linkedin.com/in/tolgakarakurt/
 
-  - title: Github
-  - url: https://github.com/tolgakarakurt
+#   - title: Github
+#   - url: https://github.com/tolgakarakurt
 
-  - title: Google Scholar
-  - url: https://scholar.google.com/citations?user=NNdpL2AAAAAJ&hl=en
+#   - title: Google Scholar
+#   - url: https://scholar.google.com/citations?user=NNdpL2AAAAAJ&hl=en
 
-  - title: Resume
-  - url: https://drive.google.com/file/d/1k6OiOat_ySqzSJjr-TsexHmOJE8oknuc/view?usp=sharing
-  - {file: "bio.md"}
-  - {url: "/tolgakarakurt_CV.pdf", title: CV}
-  #- {url: "https://www.roboticworkerslab.com/", title: Lab}
-  - {file: "blog.md"}
+#   - title: Resume
+#   - url: https://drive.google.com/file/d/1k6OiOat_ySqzSJjr-TsexHmOJE8oknuc/view?usp=sharing
+#   - {file: "bio.md"}
+#   - {url: "/tolgakarakurt_CV.pdf", title: CV}
+#   #- {url: "https://www.roboticworkerslab.com/", title: Lab}
+#   - {file: "blog.md"}
 
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:tolgakarakurt@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/tolgakarakurt"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/tolgakarakurt/"}
+# external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+#   - {title: Mail, icon: envelope, url: "mailto:tolgakarakurt@gmail.com"}
+#   - {title: Github, icon: github, url: "https://github.com/tolgakarakurt"}
+#   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/tolgakarakurt/"}
 
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
