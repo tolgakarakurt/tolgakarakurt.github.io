@@ -1,0 +1,2 @@
+curl -svo /dev/null --resolve tolgakarakurt.com:443:134.197.0.22 https://www.tolgakarakurt.com/ 134.197.0.22
+134.197.0.22
