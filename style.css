@@ -76,414 +76,414 @@
     }
     #nav a:hover:after {transform: scaleX(1);   }
 
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color:#f5f5f5;
-  font-family: Arial;
-}
-
-/* .navbar {
-  display:none;
-} */
-@media (min-width:1200px) { 
-  .navbar {
-    display:none;
-  }
-    
-}
-@media (max-width:1200px) { 
-  #menu {
-    display:none;
-  }
-    
-}
-
-/* @media (max-width: 767px) {
-  .hidden-mobile {
-    display: content;
-  }
-} */
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 28px;
-  border:rgba(0, 0, 0, 0.1);
-  outline:rgba(0, 0, 0, 0.1);
-  color: rgb(0, 0, 0);
-  padding: 5px 5px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-} 
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(245, 245, 245);
-  color: rgb(253, 177, 12);
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  /* background-color: #000000; */
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-weight: bold;
-  font-size: 50%;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: rgb(0, 0, 0);
-  padding: 5px 5px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: rgb(78, 29, 41)929;
-  color:rgb(64, 224, 208);
-  border-bottom-color: turquoise;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-  background-color: #e9e5d7;
-}
-
-  section#picture img {
-    margin-top: 50px;
-    /* margin-left: 300px; */
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    
-  }
-  
-  /******************************* General Body Styling********************************************/
-    /* Body styles */
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
-      color: #333;
-      background-color: #f5f5f5;
+    /* Navbar container */
+    .navbar {
+      overflow: hidden;
+      background-color:#f5f5f5;
+      font-family: Arial;
     }
-  
-  /******************************* TOP Menu Styling ***********************************************/
-  #top-banner {
-    position: relative;
-  }
-  
-  .cover-image {
-    background-image: url('./docs/logos/website_background.png'); /* Replace 'your-image.jpg' with the path to your image */
-    background-size: cover;
-    background-position: center;
-    background-size: 100% auto;
 
-    width: 100%;
-    height: 400px ; /* Adjust the height as needed */
-  }
-
-
-  #menu {
-    background-color: inherit;
-    padding: 10px;
-    text-align: left;
-  }
-  #menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  #menu li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  #menu a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 16px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
-    transition: color 0.3s, border-bottom-color 0.3s;
-  }
-  #menu a:hover {
-    color: turquoise;
-    border-bottom-color: turquoise;
-  }
-  @media (min-width:1200px) { 
-    .menu {
+    /* .navbar {
       display:none;
+    } */
+    @media (min-width:1200px) { 
+      .navbar {
+        display:none;
+      }
+        
     }
-  }
-  /*End of MENU Styling ************************************************************************/
+    @media (max-width:1200px) { 
+      #menu {
+        display:none;
+      }
+        
+    }
 
-  /******************************* DROPDOWN Menu Styling ***************************************/
-  
-  /*End of DROPDOWN MENU Styling ************************************************************************/
+    /* @media (max-width: 767px) {
+      .hidden-mobile {
+        display: content;
+      }
+    } */
+    /* Links inside the navbar */
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
-  /******************************* ABOUT Bio Styling **********************************************/
-  /* section#about {
-    display: flex;
-    align-items: center;
-    width: auto;
-    padding: 10px;
-    margin: 0;
-    margin-bottom: 140px;
-    background-color: #d4fafd;
-    font-size: 16px; 
-  }
-   */
 
-   #about {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left; /* Center the title */
-    background-color: #dde9e9;
-  }
-  #about h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px; /* Add some space below the title */
-    text-align: center;
-  }
-  #about p {
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  /*End of ABOUT Styling ************************************************************************/
+    /* The dropdown container */
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
 
-/******************************* EDUCATION Styling **********************************************/
-  #education {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  #education h2 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  #education ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  #education li {
-    margin-bottom: 10px;
-    font-size: 16px;
-    text-align: left;
-    padding-left: 0;
-    margin-left: 0;
-  }
-  #education a {
-    text-decoration: none;
-    color: #333;
-  }
-  .school-logo {
-    width: 40px; /* Larger logo width */
-    height: 40px;
-    margin-top: 5px;
-    margin-right: 20px; /* Increased right margin */
-    vertical-align: middle;
-    float: left; /* Float logo to the left */
-  }
-  .school-details {
-    margin-left: 0px; /* Adjust margin to accommodate the logo width */
-  }
+    /* Dropdown button */
+    .dropdown .dropbtn {
+      font-size: 28px;
+      border:rgba(0, 0, 0, 0.1);
+      outline:rgba(0, 0, 0, 0.1);
+      color: rgb(0, 0, 0);
+      padding: 5px 5px;
+      background-color: inherit;
+      font-family: inherit; /* Important for vertical align on mobile phones */
+      margin: 0; /* Important for vertical align on mobile phones */
+    } 
 
-/*End of EDUCATION Styling ************************************************************************/
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: rgb(245, 245, 245);
+      color: rgb(253, 177, 12);
+    }
 
-/******************************* EXPERIENCE Styling ***********************************************/
-  #experience {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left; /* Align the content to the left */
-    background-color: #dde9e9;
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      /* background-color: #000000; */
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-weight: bold;
+      font-size: 50%;
+    }
 
-  }
-  #experience h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  #experience ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  #experience ul li {
-    margin-bottom: 10px;
-  }
-  #experience ul ul ul{
-    padding-left: 20px;
-  }
-  /* Add bullet symbols */
-  #experience ul ul ul {
-    list-style-type: disc;
-  }
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      float: none;
+      color: rgb(0, 0, 0);
+      padding: 5px 5px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
 
-/*End of EXPERIENCE Styling ************************************************************************/
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: rgb(78, 29, 41)929;
+      color:rgb(64, 224, 208);
+      border-bottom-color: turquoise;
+    }
 
-  /* Main section styles */
-  main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 40px;
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  ul li {
-    margin-bottom: 20px;
-  }
-  
-  h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #007bff;
-  }
-  
-  p {
-    margin-bottom: 10px;
-  }
-  
-  div#DeepLearning {
-    align-items: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin-bottom: 10px;
-    /* box-sizing: border-box; */
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+      background-color: #e9e5d7;
+    }
+
+    section#picture img {
+      margin-top: 50px;
+      /* margin-left: 300px; */
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      
+    }
     
-  }
-  div#ComputerVision {
-    align-items: flex-end;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
-  div#EmbeddedSystems {
-    align-items: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin: 0; margin-bottom: 10px;
-
-  }
-  div#RoboticSystems {
-    align-items: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin: 0; margin-bottom: 10px;
-
-  }
-  div#ControlSystems {
-    align-items: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    margin: 0; margin-bottom: 10px;
-
-  }
-  /* Social media section styles */
-  /* #social-media { */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* text-align-last: center; */
-  /* } */
-  
-  /* #social-media li {
-    margin-right: 200px;
-  } */
-  /* #linkedin { */
-    /* margin-left:0px; */
-    /* margin-right: 10px; */
-  /* } */
-
-  /* #github { */
-    /* margin-left:0px; */
-    /* display: flex;  */
-    /* margin-right: 10px; */
-  /* } */
-
-  /* #researchgate { */
-    /* margin-left:0px; */
-    /* display: flex;  */
-    /* margin-right: 10px; */
-  /* } */
-/* 
-  div#social-media{ 
-    text-align-last: center;
-    padding-left: 240px;
+    /******************************* General Body Styling********************************************/
+      /* Body styles */
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        background-color: #f5f5f5;
+      }
     
-    display: flex;
-    background-color: black;
-  }
-
-  /* #social-media a{ */
-    /* color: #000000;display:inline-block; margin:0;text-transform:uppercase;  */
-  /* } */
-  #social-media div:after {
-    /* -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc; */
-    display:block;
-    content: '';
-    border-bottom: solid 3px #000000;  
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-  }
-  #social-media a:hover:after {transform: scaleX(1);   }
-  /* #social-media a.fromRight:after {transform-origin:100% 50%;  } */
-  /* #social-media a:fromLeft:after {transform: scaleX(1);   } */
-  /* Footer styles */
-  footer {
+    /******************************* TOP Menu Styling ***********************************************/
+    #top-banner {
+      position: relative;
+    }
     
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
-  }
+    .cover-image {
+      background-image: url('./docs/logos/website_background.png'); /* Replace 'your-image.jpg' with the path to your image */
+      background-size: cover;
+      background-position: center;
+      background-size: 100% auto;
+
+      width: 100%;
+      height: 400px ; /* Adjust the height as needed */
+    }
+
+
+    #menu {
+      background-color: inherit;
+      padding: 10px;
+      text-align: left;
+    }
+    #menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    #menu li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    #menu a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 16px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid transparent;
+      transition: color 0.3s, border-bottom-color 0.3s;
+    }
+    #menu a:hover {
+      color: turquoise;
+      border-bottom-color: turquoise;
+    }
+    @media (min-width:1200px) { 
+      .menu {
+        display:none;
+      }
+    }
+    /*End of MENU Styling ************************************************************************/
+
+    /******************************* DROPDOWN Menu Styling ***************************************/
+    
+    /*End of DROPDOWN MENU Styling ************************************************************************/
+
+    /******************************* ABOUT Bio Styling **********************************************/
+    /* section#about {
+      display: flex;
+      align-items: center;
+      width: auto;
+      padding: 10px;
+      margin: 0;
+      margin-bottom: 140px;
+      background-color: #d4fafd;
+      font-size: 16px; 
+    }
+    */
+
+    #about {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: left; /* Center the title */
+      background-color: #dde9e9;
+    }
+    #about h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px; /* Add some space below the title */
+      text-align: center;
+    }
+    #about p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    /*End of ABOUT Styling ************************************************************************/
+
+  /******************************* EDUCATION Styling **********************************************/
+    #education {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    #education h2 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    #education ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    #education li {
+      margin-bottom: 10px;
+      font-size: 16px;
+      text-align: left;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    #education a {
+      text-decoration: none;
+      color: #333;
+    }
+    .school-logo {
+      width: 40px; /* Larger logo width */
+      height: 40px;
+      margin-top: 5px;
+      margin-right: 20px; /* Increased right margin */
+      vertical-align: middle;
+      float: left; /* Float logo to the left */
+    }
+    .school-details {
+      margin-left: 0px; /* Adjust margin to accommodate the logo width */
+    }
+
+  /*End of EDUCATION Styling ************************************************************************/
+
+  /******************************* EXPERIENCE Styling ***********************************************/
+    #experience {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: left; /* Align the content to the left */
+      background-color: #dde9e9;
+
+    }
+    #experience h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    #experience ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    #experience ul li {
+      margin-bottom: 10px;
+    }
+    #experience ul ul ul{
+      padding-left: 20px;
+    }
+    /* Add bullet symbols */
+    #experience ul ul ul {
+      list-style-type: disc;
+    }
+
+  /*End of EXPERIENCE Styling ************************************************************************/
+
+    /* Main section styles */
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+    
+    section {
+      margin-bottom: 40px;
+    }
+    
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    ul li {
+      margin-bottom: 20px;
+    }
+    
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #007bff;
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+    
+    div#DeepLearning {
+      align-items: center;
+      width: 320px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+      margin-bottom: 10px;
+      /* box-sizing: border-box; */
+      
+    }
+    div#ComputerVision {
+      align-items: flex-end;
+      width: 320px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    div#EmbeddedSystems {
+      align-items: center;
+      width: 320px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+      margin: 0; margin-bottom: 10px;
+
+    }
+    div#RoboticSystems {
+      align-items: center;
+      width: 320px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+      margin: 0; margin-bottom: 10px;
+
+    }
+    div#ControlSystems {
+      align-items: center;
+      width: 320px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+      margin: 0; margin-bottom: 10px;
+
+    }
+    /* Social media section styles */
+    /* #social-media { */
+      /* display: flex; */
+      /* flex-wrap: wrap; */
+      /* text-align-last: center; */
+    /* } */
+    
+    /* #social-media li {
+      margin-right: 200px;
+    } */
+    /* #linkedin { */
+      /* margin-left:0px; */
+      /* margin-right: 10px; */
+    /* } */
+
+    /* #github { */
+      /* margin-left:0px; */
+      /* display: flex;  */
+      /* margin-right: 10px; */
+    /* } */
+
+    /* #researchgate { */
+      /* margin-left:0px; */
+      /* display: flex;  */
+      /* margin-right: 10px; */
+    /* } */
+  /* 
+    div#social-media{ 
+      text-align-last: center;
+      padding-left: 240px;
+      
+      display: flex;
+      background-color: black;
+    }
+
+    /* #social-media a{ */
+      /* color: #000000;display:inline-block; margin:0;text-transform:uppercase;  */
+    /* } */
+    #social-media div:after {
+      /* -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc; */
+      display:block;
+      content: '';
+      border-bottom: solid 3px #000000;  
+      transform: scaleX(0);  
+      transition: transform 250ms ease-in-out;
+    }
+    #social-media a:hover:after {transform: scaleX(1);   }
+    /* #social-media a.fromRight:after {transform-origin:100% 50%;  } */
+    /* #social-media a:fromLeft:after {transform: scaleX(1);   } */
+    /* Footer styles */
+    footer {
+      
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
+    }
 
 
 
