@@ -21,7 +21,7 @@
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
       
     }
-    .header-image img {
+    .header-image {
       max-width: 100%;
       height: auto;
     }
